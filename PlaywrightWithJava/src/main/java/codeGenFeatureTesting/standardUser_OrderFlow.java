@@ -10,7 +10,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.AriaRole;
 
-public class firstTest {
+public class standardUser_OrderFlow {
 
 	public static void main(String args[]) {
 		try (Playwright playwright = Playwright.create()) {
