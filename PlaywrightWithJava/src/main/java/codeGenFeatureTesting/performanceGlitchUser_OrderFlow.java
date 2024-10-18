@@ -8,8 +8,8 @@ public class performanceGlitchUser_OrderFlow {
 	public static void main(String[] args) {
 		try (Playwright playwright = Playwright.create()) {
 			Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-			BrowserContext context = browser.newContext();
-			Page page = context.newPage();
+			//BrowserContext context = browser.newContext();
+			Page page = browser.newPage();
 			page.navigate("https://demo.playwright.dev/todomvc/");
 			page.navigate("https://demo.playwright.dev/todomvc/#/");
 			page.navigate(
@@ -39,7 +39,7 @@ public class performanceGlitchUser_OrderFlow {
 			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Open Menu")).click();
 			page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Logout")).click();
 			page.close();
-			context.close();
+			//context.close();
 			browser.close();
 		}
 	}

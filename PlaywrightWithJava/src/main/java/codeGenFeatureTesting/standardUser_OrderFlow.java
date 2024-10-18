@@ -15,8 +15,7 @@ public class standardUser_OrderFlow {
 	public static void main(String args[]) {
 		try (Playwright playwright = Playwright.create()) {
 			Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-			BrowserContext context = browser.newContext();
-			Page page = context.newPage();
+			Page page = browser.newPage();
 			page.navigate(
 					"https://www.google.com/search?q=suacedemo&oq=suacedemo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDIwOTdqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8");
 			page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Swag Labs Swag Labs https://")).click();
@@ -44,7 +43,6 @@ public class standardUser_OrderFlow {
 			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Open Menu")).click();
 			page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Logout")).click();
 			page.close();
-			context.close();
 			browser.close();
 		}
 	}
