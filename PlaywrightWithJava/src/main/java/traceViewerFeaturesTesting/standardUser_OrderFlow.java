@@ -1,3 +1,14 @@
+/**
+ * Test case name: standardUser_OrderFlow
+ * Description   : Standard user should be able to sign in and place an order in Swag Labs website.
+ * Precondition  : Before running test file, trace viewer should be configured.
+ * Test priority : Medium
+ * Test category : Functional testing
+ * Author        : Siddhartha Upadhyay (Sidpng@Github)
+ * Date          : 20 October, 2024
+ */
+
+
 package traceViewerFeaturesTesting;
 
 import java.nio.file.Paths;

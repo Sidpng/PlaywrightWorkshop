@@ -1,3 +1,13 @@
+/**
+ * Test case name: standardUser_login
+ * Description   : Standard user should be able to login in Swag Labs website.
+ * Precondition  : Before running test file, trace viewer should be configured.
+ * Test priority : Low
+ * Test category : Functional testing
+ * Author        : Siddhartha Upadhyay (Sidpng@Github)
+ * Date          : 20 October, 2024
+ */
+
 package traceViewerFeaturesTesting;
 
 import java.nio.file.Paths;

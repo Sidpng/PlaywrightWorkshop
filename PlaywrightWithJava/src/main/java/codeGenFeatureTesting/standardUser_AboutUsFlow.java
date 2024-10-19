@@ -1,3 +1,12 @@
+/**
+ * Test case name: standardUser_AboutUsFlow
+ * Description   : Standard user should be able to sign in to the Swag labs website and navigate to the About us section.
+ * Test priority : Medium
+ * Test category : Functional testing
+ * Author        : Siddhartha Upadhyay (Sidpng@Github)
+ * Date          : 20 October, 2024
+ */
+
 package codeGenFeatureTesting;
 
 import com.microsoft.playwright.*;
