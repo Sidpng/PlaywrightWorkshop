@@ -1,0 +1,1 @@
+{"version":7,"type":"context-options","origin":"library","browserName":"chromium","options":{"acceptDownloads":"accept","viewport":{"width":1280,"height":720}},"platform":"darwin","wallTime":1729354319931,"monotonicTime":528.352,"sdkLanguage":"java","testIdAttributeName":"data-testid"}

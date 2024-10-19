@@ -3,7 +3,6 @@ package codeGenFeatureTesting;
 import java.util.regex.Pattern;
 
 import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
