@@ -1,3 +1,12 @@
+/**
+ * Test case name: standardUser_OrderFlow
+ * Description   : Standard user should be able to sign in and place an order in Swag Labs website.
+ * Test priority : Medium
+ * Test category : Functional testing
+ * Author        : Siddhartha Upadhyay (Sidpng@Github)
+ * Date          : 20 October, 2024
+ */
+
 package codeGenFeatureTesting;
 
 import java.util.regex.Pattern;
